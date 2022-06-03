@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S export $CFILE=main.c
+gcc -S intel.c -o $CFILE
