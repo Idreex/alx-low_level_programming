@@ -1,17 +1,52 @@
 #include <stdio.h>
+
+​
+
 /**
- * main - Prints the lowercase alphabet in reverse.
- * Return: Always 0.
- */
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
+
+​
+
 int main(void)
+
+	​
+
 {
-	char letter;
 
-	for (letter = 'z'; letter >= 'a'; letter--)	
-		putchar(letter);
+	        /*Declarating statement*/
 
-	putchar('\n');
+	        char reverse_lower_c;
 
-	return (0);
-}        
+		​
+
+			        /*for lower_c alphabet in reverse*/
+
+			        for (reverse_lower_c = 122; reverse_lower_c >= 97; reverse_lower_c--)
+
+					        {
+
+							                /*print reverse lower case alphabet*/
+
+							                putchar(reverse_lower_c);
+
+									        }
+
+		​
+
+			        /*new line*/
+
+			        putchar('\n');
+
+		​
+
+			        return (0);
+
+}
 
