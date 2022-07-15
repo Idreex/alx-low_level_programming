@@ -7,9 +7,9 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t nelem;
+	size_t noe;/*noe = number of elements*/
 
-	nelem = 0;
+	noe = 0;
 	while (h != NULL)
 	{
 		if (h->str == NULL)
@@ -17,7 +17,7 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
-		nelem++;
+		noe++;
 	}
-	return (nelem);
+	return (noe);
 }
